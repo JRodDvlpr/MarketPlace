@@ -1,5 +1,9 @@
 .App {
+  font-family: sans-serif;
+  display: flex;
   text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +39,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  outline: 0;
+}
+
+
+/*######### NAVIGATION ########*/
+
+#navigation {
+  width: 100%;  
+  background-color: black;
+}
+
+#logo {
+  width: 10%;
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#navbtn {
+  padding-bottom: 20px;
+}
+
+/*####### Sign up Card ######*/
+
+.signupCard {
+  
+  width: 400px;
+  border-radius: 5px;
+  background-color: #FFB612;
+}
+
+
+
+/*Form */
+#signupBtn {
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form {
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*###### User Item List Style ######*/
+
+#additemsform {
+  width: 400px;
+  margin-bottom: 50px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#newitmbtn {
+  margin-bottom: 50px;
+}
+
+.productPic {
+  width: 100px;
+  height: 200px;
+}
+
+.card {
+  width: 20%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  
 }

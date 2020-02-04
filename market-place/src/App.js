@@ -10,10 +10,13 @@ import Login from './components/Login';
 
 //Navigation bar 
 import Nav from './components/Nav';
+//dashboard
+import Dashboard from './components/Dashboard';
+import MarketFeed from './components/MarketFeed';
+import PrivateRoute from './components/PrivateRoute';
 
 
-
-function App() {
+const App = (props) => {
   return (
     <div className="App">
       <Nav />
